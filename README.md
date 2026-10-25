@@ -35,4 +35,4 @@ The project uses illustrative sample fitness data for a 30-day period.
 - Presenting data through visualizations
 
 ## Author
-Add your name here.
+Rahul Janardhan Salve
