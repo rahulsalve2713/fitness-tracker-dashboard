@@ -1,0 +1,1794 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='b25552a77fe448d0b90c5d0e5ba57fc086b44863dbb6696256f3a4aeab3bbfa1' _.fcp.WorkbookFingerprinting.true...creator-author-id='b25552a77fe448d0b90c5d0e5ba57fc086b44863dbb6696256f3a4aeab3bbfa1' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='f40d388b6eab2f99926e922ae97a1e22e0d4f2e96078d1fa5fe4725a8cfd0205' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='f40d388b6eab2f99926e922ae97a1e22e0d4f2e96078d1fa5fe4725a8cfd0205' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <repository-location id='Book2_17929251037670' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Fitness Data (Fitness_Tracker_Dataset)' inline='true' name='federated.01j83f214o3lk71e05ba10djhhll' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Fitness_Tracker_Dataset' name='excel-direct.0ttv47f01dka3r13zbn890sup13w'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/LENOVO/Downloads/Fitness_Tracker_Dataset.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0ttv47f01dka3r13zbn890sup13w' name='Fitness Data' table='[&apos;Fitness Data$&apos;]' type='table'>
+          <columns gridOrigin='A1:G31:no:A1:G31:0' header='yes' outcome='6'>
+            <column datatype='string' name='Date' ordinal='0' />
+            <column datatype='integer' name='Steps' ordinal='1' />
+            <column datatype='integer' name='Calories_Burned' ordinal='2' />
+            <column datatype='integer' name='Heart_Rate_BPM' ordinal='3' />
+            <column datatype='real' name='Sleep_Hours' ordinal='4' />
+            <column datatype='integer' name='Activity_Minutes' ordinal='5' />
+            <column datatype='string' name='Activity_Level' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Fitness Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G31:no:A1:G31:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Fitness Data]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Steps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Steps]</local-name>
+            <parent-name>[Fitness Data]</parent-name>
+            <remote-alias>Steps</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calories_Burned</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calories_Burned]</local-name>
+            <parent-name>[Fitness Data]</parent-name>
+            <remote-alias>Calories_Burned</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Heart_Rate_BPM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Heart_Rate_BPM]</local-name>
+            <parent-name>[Fitness Data]</parent-name>
+            <remote-alias>Heart_Rate_BPM</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep_Hours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sleep_Hours]</local-name>
+            <parent-name>[Fitness Data]</parent-name>
+            <remote-alias>Sleep_Hours</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Activity_Minutes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Activity_Minutes]</local-name>
+            <parent-name>[Fitness Data]</parent-name>
+            <remote-alias>Activity_Minutes</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Activity_Level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Activity_Level]</local-name>
+            <parent-name>[Fitness Data]</parent-name>
+            <remote-alias>Activity_Level</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Activity Level' datatype='string' name='[Activity_Level]' role='dimension' type='nominal' />
+      <column caption='Activity Minutes' datatype='integer' name='[Activity_Minutes]' role='measure' type='quantitative' />
+      <column caption='Calories Burned' datatype='integer' name='[Calories_Burned]' role='measure' type='quantitative' />
+      <column caption='Heart Rate BPM' datatype='integer' name='[Heart_Rate_BPM]' role='measure' type='quantitative' />
+      <column caption='Sleep Hours' datatype='real' name='[Sleep_Hours]' role='measure' type='quantitative' />
+      <column caption='Fitness Data' datatype='table' name='[__tableau_internal_object_id__].[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/LENOVO/AppData/Local/Temp/TableauTemp/#TableauTemp_0d0hdqv03tqtmy11cdxsd1brdfps.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/25/2026 07:46:55 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Fitness Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Steps</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Steps]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Steps</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Fitness Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Calories_Burned</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Calories_Burned]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Calories_Burned</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Fitness Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Heart_Rate_BPM</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Heart_Rate_BPM]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Heart_Rate_BPM</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Fitness Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sleep_Hours</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sleep_Hours]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sleep_Hours</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Fitness Data</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Activity_Minutes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Activity_Minutes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Activity_Minutes</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Fitness Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Activity_Level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Activity_Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Activity_Level</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Fitness Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Fitness Data' id='Fitness Data_37A20F37FABD4DCC9F23B18F5AEE62C3'>
+            <properties context=''>
+              <relation connection='excel-direct.0ttv47f01dka3r13zbn890sup13w' name='Fitness Data' table='[&apos;Fitness Data$&apos;]' type='table'>
+                <columns gridOrigin='A1:G31:no:A1:G31:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Date' ordinal='0' />
+                  <column datatype='integer' name='Steps' ordinal='1' />
+                  <column datatype='integer' name='Calories_Burned' ordinal='2' />
+                  <column datatype='integer' name='Heart_Rate_BPM' ordinal='3' />
+                  <column datatype='real' name='Sleep_Hours' ordinal='4' />
+                  <column datatype='integer' name='Activity_Minutes' ordinal='5' />
+                  <column datatype='string' name='Activity_Level' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Activity Duration'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fitness Data (Fitness_Tracker_Dataset)' name='federated.01j83f214o3lk71e05ba10djhhll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01j83f214o3lk71e05ba10djhhll'>
+            <column caption='Activity Level' datatype='string' name='[Activity_Level]' role='dimension' type='nominal' />
+            <column caption='Activity Minutes' datatype='integer' name='[Activity_Minutes]' role='measure' type='quantitative' />
+            <column-instance column='[Activity_Level]' derivation='None' name='[none:Activity_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Activity_Minutes]' derivation='Sum' name='[sum:Activity_Minutes:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#20a695' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.01j83f214o3lk71e05ba10djhhll].[sum:Activity_Minutes:qk]</rows>
+        <cols>[federated.01j83f214o3lk71e05ba10djhhll].[none:Activity_Level:nk]</cols>
+      </table>
+      <simple-id uuid='{523F6EE5-CB04-43E1-836C-FCF20E8B85C5}' />
+    </worksheet>
+    <worksheet name='Average Daily Steps'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Average Daily Steps</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fitness Data (Fitness_Tracker_Dataset)' name='federated.01j83f214o3lk71e05ba10djhhll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01j83f214o3lk71e05ba10djhhll'>
+            <column datatype='integer' name='[Steps]' role='measure' type='quantitative' />
+            <column-instance column='[Steps]' derivation='Avg' name='[avg:Steps:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#008080' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#d9f2ee' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.01j83f214o3lk71e05ba10djhhll].[avg:Steps:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.01j83f214o3lk71e05ba10djhhll].[avg:Steps:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C39D9298-AC25-4FC6-97E0-8ED1252D094D}' />
+    </worksheet>
+    <worksheet name='Average Sleep'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fitness Data (Fitness_Tracker_Dataset)' name='federated.01j83f214o3lk71e05ba10djhhll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01j83f214o3lk71e05ba10djhhll'>
+            <column caption='Sleep Hours' datatype='real' name='[Sleep_Hours]' role='measure' type='quantitative' />
+            <column-instance column='[Sleep_Hours]' derivation='Avg' name='[avg:Sleep_Hours:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#1e90ff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#e9ddf7' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.01j83f214o3lk71e05ba10djhhll].[avg:Sleep_Hours:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{1FFE4EF3-2905-49B6-9EB7-CE524CAB4325}' />
+    </worksheet>
+    <worksheet name='Calories Burned'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fitness Data (Fitness_Tracker_Dataset)' name='federated.01j83f214o3lk71e05ba10djhhll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01j83f214o3lk71e05ba10djhhll'>
+            <column caption='Calories Burned' datatype='integer' name='[Calories_Burned]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Date]' role='dimension' type='nominal' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calories_Burned]' derivation='Sum' name='[sum:Calories_Burned:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e58b45' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.01j83f214o3lk71e05ba10djhhll].[sum:Calories_Burned:qk]</rows>
+        <cols>[federated.01j83f214o3lk71e05ba10djhhll].[none:Date:nk]</cols>
+      </table>
+      <simple-id uuid='{FC63853F-6FB8-416B-B2DC-5D8135F5B716}' />
+    </worksheet>
+    <worksheet name='Daily Steps'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fitness Data (Fitness_Tracker_Dataset)' name='federated.01j83f214o3lk71e05ba10djhhll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01j83f214o3lk71e05ba10djhhll'>
+            <column datatype='string' name='[Date]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Steps]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Steps]' derivation='Sum' name='[sum:Steps:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.01j83f214o3lk71e05ba10djhhll].[none:Date:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-01&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-02&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-03&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-04&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-05&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-06&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-07&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-08&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-09&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-10&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-11&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-12&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-13&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-14&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-15&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-16&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-17&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-18&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-19&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-20&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-21&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-22&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-23&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-24&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-25&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-26&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-27&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-28&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-29&quot;' />
+              <groupfilter function='member' level='[none:Date:nk]' member='&quot;2026-10-30&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.01j83f214o3lk71e05ba10djhhll].[none:Date:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#356fa8' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.01j83f214o3lk71e05ba10djhhll].[sum:Steps:qk]</rows>
+        <cols>[federated.01j83f214o3lk71e05ba10djhhll].[none:Date:nk]</cols>
+      </table>
+      <simple-id uuid='{15BF0EDB-3D55-4612-AFF7-05377AFD035A}' />
+    </worksheet>
+    <worksheet name='Heart Rate'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fitness Data (Fitness_Tracker_Dataset)' name='federated.01j83f214o3lk71e05ba10djhhll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01j83f214o3lk71e05ba10djhhll'>
+            <column caption='Activity Level' datatype='string' name='[Activity_Level]' role='dimension' type='nominal' />
+            <column caption='Heart Rate BPM' datatype='integer' name='[Heart_Rate_BPM]' role='measure' type='quantitative' />
+            <column-instance column='[Activity_Level]' derivation='None' name='[none:Activity_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Heart_Rate_BPM]' derivation='Sum' name='[sum:Heart_Rate_BPM:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#d95d5d' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.01j83f214o3lk71e05ba10djhhll].[sum:Heart_Rate_BPM:qk]</rows>
+        <cols>[federated.01j83f214o3lk71e05ba10djhhll].[none:Activity_Level:nk]</cols>
+      </table>
+      <simple-id uuid='{59E58B84-904E-4930-AC5A-E797766F78FE}' />
+    </worksheet>
+    <worksheet name='Sleep Analysis'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fitness Data (Fitness_Tracker_Dataset)' name='federated.01j83f214o3lk71e05ba10djhhll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01j83f214o3lk71e05ba10djhhll'>
+            <column datatype='string' name='[Date]' role='dimension' type='nominal' />
+            <column caption='Sleep Hours' datatype='real' name='[Sleep_Hours]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sleep_Hours]' derivation='Sum' name='[sum:Sleep_Hours:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#8064a2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.01j83f214o3lk71e05ba10djhhll].[sum:Sleep_Hours:qk]</rows>
+        <cols>[federated.01j83f214o3lk71e05ba10djhhll].[none:Date:nk]</cols>
+      </table>
+      <simple-id uuid='{6BA12B49-CE12-47C0-9095-97062652B9A1}' />
+    </worksheet>
+    <worksheet name='Total Calories'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fitness Data (Fitness_Tracker_Dataset)' name='federated.01j83f214o3lk71e05ba10djhhll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01j83f214o3lk71e05ba10djhhll'>
+            <column caption='Calories Burned' datatype='integer' name='[Calories_Burned]' role='measure' type='quantitative' />
+            <column-instance column='[Calories_Burned]' derivation='Sum' name='[sum:Calories_Burned:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#ff4500' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#fce7d5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.01j83f214o3lk71e05ba10djhhll].[sum:Calories_Burned:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E8CC63E6-8AAC-4C47-B94E-5BD0506C989D}' />
+    </worksheet>
+    <worksheet name='Total Steps'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fitness Data (Fitness_Tracker_Dataset)' name='federated.01j83f214o3lk71e05ba10djhhll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01j83f214o3lk71e05ba10djhhll'>
+            <column datatype='integer' name='[Steps]' role='measure' type='quantitative' />
+            <column-instance column='[Steps]' derivation='Sum' name='[sum:Steps:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#356fa8' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#dcebfa' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.01j83f214o3lk71e05ba10djhhll].[sum:Steps:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4A43B6A3-C74C-4D13-ABFC-26583D4BD609}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Fitness Tracker Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Fitness Tracker Dashboard</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98140' id='8' param='vert' type-v2='layout-flow' w='97538' x='1231' y='930'>
+            <zone h='5349' id='10' type-v2='title' w='97538' x='1231' y='930'>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='92791' id='5' param='vert' type-v2='layout-flow' w='97538' x='1231' y='6279'>
+              <zone h='92791' id='6' type-v2='layout-basic' w='97538' x='1231' y='6279'>
+                <zone h='92791' id='9' type-v2='layout-basic' w='97538' x='1231' y='6279'>
+                  <zone h='46390' id='11' name='Daily Steps' w='48769' x='1231' y='6279'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='46390' id='12' name='Calories Burned' w='48769' x='50000' y='6279'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='46401' id='13' name='Heart Rate' w='24380' x='1231' y='52669'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='46401' id='14' name='Sleep Analysis' w='48769' x='50000' y='52669'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='46401' id='15' name='Activity Duration' w='24389' x='25611' y='52669'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontcolor='#000000' fontname='Benton Sans Book'>Fitness Tracker Dashboard</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98140' id='18' param='vert' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                <zone h='5349' id='10' type-v2='title' w='97538' x='1231' y='930'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46390' id='11' is-fixed='true' name='Daily Steps' w='48769' x='1231' y='6279'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46390' id='12' is-fixed='true' name='Calories Burned' w='48769' x='50000' y='6279'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46401' id='13' is-fixed='true' name='Heart Rate' w='24380' x='1231' y='52669'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46401' id='15' is-fixed='true' name='Activity Duration' w='24389' x='25611' y='52669'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46401' id='14' is-fixed='true' name='Sleep Analysis' w='48769' x='50000' y='52669'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4089C5B8-D56E-4C96-8FDD-9D040A51411A}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Fitness Tracker Dashboard 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Arial' fontsize='20'>FITNESS TRACKER DASHBOARD</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='16'>Daily Activity • Health &amp; Wellness</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98244' id='17' param='vert' type-v2='layout-flow' w='99034' x='483' y='878'>
+            <zone h='8782' id='19' param='horz' type-v2='layout-flow' w='99034' x='483' y='878'>
+              <zone forceUpdate='true' h='8782' id='20' type-v2='text' w='99034' x='483' y='878'>
+                <formatted-text>
+                  <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='20'>FITNESS TRACKER DASHBOARD</run>
+                  <run fontalignment='1'>Æ&#10;</run>
+                  <run fontalignment='1' fontcolor='#ffffff' fontname='Benton Sans Book' fontsize='16'>Daily Activity • Health &amp; Wellness</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#444444' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#19385e' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone h='89462' id='15' param='vert' type-v2='layout-flow' w='99034' x='483' y='9660'>
+              <zone h='89462' id='13' type-v2='layout-basic' w='99034' x='483' y='9660'>
+                <zone h='18694' id='3' name='Total Steps' w='24724' x='483' y='9660'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='5' />
+                  </zone-style>
+                </zone>
+                <zone h='18694' id='5' name='Average Daily Steps' w='24761' x='49978' y='9660'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='5' />
+                  </zone-style>
+                </zone>
+                <zone h='18694' id='6' name='Total Calories' w='24778' x='74739' y='9660'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='5' />
+                  </zone-style>
+                </zone>
+                <zone h='18694' id='7' name='Average Sleep' w='24771' x='25207' y='9660'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='5' />
+                  </zone-style>
+                </zone>
+                <zone h='22945' id='8' name='Daily Steps' w='49515' x='483' y='28354'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='24878' id='10' name='Heart Rate' w='49515' x='483' y='74244'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='31870' id='11' name='Sleep Analysis' w='49519' x='49998' y='28354'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='22945' id='12' name='Activity Duration' w='49515' x='483' y='51299'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='38898' id='9' name='Calories Burned' w='49519' x='49998' y='60224'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Arial' fontsize='20'>FITNESS TRACKER DASHBOARD</run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='16'>Daily Activity • Health &amp; Wellness</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1800' minheight='1800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98244' id='23' param='vert' type-v2='layout-flow' w='99034' x='483' y='878'>
+                <zone forceUpdate='true' h='8782' id='20' type-v2='text' w='99034' x='483' y='878'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Arial' fontsize='20'>FITNESS TRACKER DASHBOARD</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#ffffff' fontname='Benton Sans Book' fontsize='16'>Daily Activity • Health &amp; Wellness</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#19385e' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='140' h='18694' id='3' is-fixed='true' name='Total Steps' w='24724' x='483' y='9660'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='140' h='18694' id='7' is-fixed='true' name='Average Sleep' w='24771' x='25207' y='9660'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='140' h='18694' id='5' is-fixed='true' name='Average Daily Steps' w='24761' x='49978' y='9660'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='140' h='18694' id='6' is-fixed='true' name='Total Calories' w='24778' x='74739' y='9660'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='175' h='22945' id='8' is-fixed='true' name='Daily Steps' w='49515' x='483' y='28354'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='247' h='31870' id='11' is-fixed='true' name='Sleep Analysis' w='49519' x='49998' y='28354'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='176' h='22945' id='12' is-fixed='true' name='Activity Duration' w='49515' x='483' y='51299'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38898' id='9' is-fixed='true' name='Calories Burned' w='49519' x='49998' y='60224'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='191' h='24878' id='10' is-fixed='true' name='Heart Rate' w='49515' x='483' y='74244'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{DC49E400-1429-45BC-8894-883915DE533C}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Daily Steps'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{287922B1-5F24-41AA-BDE9-BF2DFE0294B6}' />
+    </window>
+    <window class='worksheet' name='Calories Burned'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B7FA1EFA-A6DB-4F09-BB10-A4B305014E43}' />
+    </window>
+    <window class='worksheet' name='Heart Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9516CA62-B95B-4072-95AF-955D1C33F3B0}' />
+    </window>
+    <window class='worksheet' name='Sleep Analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{49EDA8FF-B27F-4019-8257-8B1BE1D0A405}' />
+    </window>
+    <window class='worksheet' name='Activity Duration'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5B93CF54-C5F7-463A-835D-5338AF540CB9}' />
+    </window>
+    <window class='dashboard' name='Fitness Tracker Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Activity Duration'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Calories Burned'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Daily Steps'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Heart Rate'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sleep Analysis'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{F6AB67BA-F64A-4098-ABCA-7B7A7ED6F8B8}' />
+    </window>
+    <window class='worksheet' name='Total Steps'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4F04963F-D5C4-49AD-BDAE-B2CC73D4852F}' />
+    </window>
+    <window class='worksheet' name='Average Daily Steps'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{02589C7D-D5EA-422A-B6B8-AF76E3F2D900}' />
+    </window>
+    <window class='worksheet' name='Total Calories'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1A299B55-DB2E-4912-8B8C-A95A8964588E}' />
+    </window>
+    <window class='worksheet' name='Average Sleep'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D7405101-8AC6-4024-8728-E90CDEDDE352}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Fitness Tracker Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Activity Duration'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Daily Steps'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Sleep'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Calories Burned'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Daily Steps'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Heart Rate'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sleep Analysis'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Calories'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Steps' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{EF227EA7-BB8D-4C21-AC70-5215F60C5432}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='25' name='Average Sleep' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAZCAYAAACB6CjhAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAADZElEQVRYhe2YTWhcVRiGn+/ce2eSJpnJdNI06VjbahstTLEZcSGlECxKoatuipCNLgou
+      xIVIF4KI2IK4cSMIuhB0U1FRRPzBjSJk46I21hiTNuTPsfbHNHc6k87ce89xcWln7mTiD5i5
+      heTdne+ce3jf93znfOceMcYYNjBU3ATixqYBcROIG3Zz4MrMrTh4xIYNnwGbBsRNIG5sGhA3
+      gbixaUDcBOLGhjdg1UXo/8YHsxY/L7X2+bFBzchA0LLvwpLi9Z9spkuKfT2aUwd88hkdGVPx
+      4a1Jh6+Lioov7E1pntvvU8hqFsrCe5dsqi2mTztwcsgnlTDrb8DRnGZkIEocA29M2Lje2t+d
+      GXc4lfcYzmrOXVecGXd45aDHUDqca8WHl8857E0ZPjtSpcOCYkVYqgoAg52Gk0M+zb+608vC
+      +5fqstfdgLRjSDvR2OSywq0JI9t164+AE3t8hrNh/3BWc2KPz0ezFi8+FMa++d0ilQhXUoWa
+      2bHFsGNLKNlW0N8Rla8NvH3Z5tjOgFQi7Gv7GaANfDhr8XiuTqIZJU8obI2aU9iquVYTSp7g
+      Gxi7ojiaC+6I/zeYchXFinC4wfh1z4BmXHQVf6wIz+5fe/UrAfQmo7HeJBgT9nlacGvCzi7D
+      tCtcdBWOgof7NJk1TNUGPpmzeCIXRMa0NQO0gS9+Uzy6bW2it2GLWdXusMKYZ2ChLDz1fYJ3
+      p21qAfx4XfHktwm+XLRazjdfFuZuCof7o8a3NQPe/MUmm4TR+/2/HecIuDWhy66b4NbCA84R
+      sBTs7ja8kPfY1X17TMDzeTh93uGeLsOBhooxXxZeG3d4teDR13QutC0D5svCxI1w3/4TUgnD
+      VCm6uadKQm/SkEoYemxDf6fhfFN59TSU/dWiPp2zOLRds61jdda1zYCvFi0K2dYkfANjVxWX
+      V0LRtsDZGRvXC9uuJ5ydsTmWC7AFlMDxewM+nrVYrNSNmrgR3gd299RXv1gRJpcVRwZbG9+W
+      LVCsCD9cU7x0sHXhrwbwzq82o/cFDHSGRB/p04x+lyCf0VxYUhzfFXCo4fTOZzRP7wt4ZizB
+      A2lDNYCrt4TThRpdDao+X7B4MK3vlMdmSPOz+N30JFb24aYvdNsmIqoRvoY/a4ICMkmD9R/K
+      ItzlBrQDfwGPzEHEwtW1oQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Daily Steps' width='192'>
+      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
+      QmCC
+    </thumbnail>
+    <thumbnail height='192' name='Fitness Tracker Dashboard 2' width='192'>
+      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
+      Y/4/w7/wr59EMvYAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
